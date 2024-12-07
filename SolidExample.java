@@ -3,6 +3,7 @@ public class SolidExample {
         Product product = new Product(1, "Laptop");
         ProductRepository repository = new ProductRepository();
         repository.save(product);
+
     }
 }
 
