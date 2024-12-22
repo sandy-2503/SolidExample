@@ -1,6 +1,6 @@
 public class SolidExample {
     public static void main(String[] args) {
-        Product product = new Product(1, "Laptop");
+        Product product = new Product(1, "Laptop ");
         ProductRepository repository = new ProductRepository();
         repository.save(product);
 
